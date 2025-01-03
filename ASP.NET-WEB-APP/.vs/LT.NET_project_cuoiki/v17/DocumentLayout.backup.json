@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D\\ASP.NET-WEB-APP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\models\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\models\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|c:\\d\\asp.net-web-app\\lt.net_project_cuoiki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|c:\\d\\asp.net-web-app\\lt.net_project_cuoiki\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\dao\\productadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\dao\\productadmindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\connectionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\connectionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\models\\detailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\models\\detailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|C:\\D\\ASP.NET-WEB-APP\\lt.net_project_cuoiki\\views\\shop\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4051799F-53DF-4B59-B9D1-69A03F4D8428}|LT.NET_project_cuoiki\\LT.NET_project_cuoiki.csproj|solutionrelative:lt.net_project_cuoiki\\views\\shop\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T08:24:43.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductAdminDAO.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\DAO\\ProductAdminDAO.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\DAO\\ProductAdminDAO.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\DAO\\ProductAdminDAO.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\DAO\\ProductAdminDAO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAzwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Models\\ProductEntity.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\ProductEntity.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Models\\ProductEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConnectionMysql.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\ConnectionMysql.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\ConnectionMysql.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\ConnectionMysql.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\ConnectionMysql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-01-03T08:18:20.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shared\\_MainLayout.cshtml*",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Views\\Shared\\_MainLayout.cshtml*",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T08:18:20.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\DAO\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\DAO\\ProductDAO.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\DAO\\ProductDAO.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\DAO\\ProductDAO.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shop\\Cart.cshtml",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Views\\Shop\\Cart.cshtml",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shop\\Cart.cshtml",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Views\\Shop\\Cart.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAKcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T08:18:20.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetailModel.cs",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\DetailModel.cs",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Models\\DetailModel.cs",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Models\\DetailModel.cs",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Models\\DetailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:18:20.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shop\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "LT.NET_project_cuoiki\\Views\\Shop\\Checkout.cshtml",
+              "ToolTip": "C:\\D\\ASP.NET-WEB-APP\\LT.NET_project_cuoiki\\Views\\Shop\\Checkout.cshtml",
+              "RelativeToolTip": "LT.NET_project_cuoiki\\Views\\Shop\\Checkout.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAGQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2025-01-03T08:18:20.48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

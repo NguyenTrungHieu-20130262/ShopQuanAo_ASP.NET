@@ -1,0 +1,180 @@
+﻿@using LT.NET_project_cuoiki.Models
+@model List<LT.NET_project_cuoiki.Models.ProductEntity>
+<link rel="stylesheet" href="~/Asset/css/home.css">
+
+<!-- body page -->
+<div class="body_page_container">
+    <div class="body_page">
+
+        <div class="body_page-slides">
+            <div class="body_page-slides-card">
+                <a href=""><img src="~/Asset/img/Slider/product_1.jpg" alt=""></a>
+                <a href=""><img src="~/Asset/img/Slider/product_2.jpg" alt=""></a>
+                <a href=""><img src="~/Asset/img/Slider/product_3.jpg" alt=""></a>
+            </div>
+            <div class="body_page-slides-card-btns">
+                <div class="body_page-slides-card-list-btn">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="body_page-popular-product">
+            <div class="body_page-popular-product-card">
+                <a href=""><img src="~/Asset/img/banner/banner-1.jpg" alt=""></a>
+                <button><a href="/Shop/Product">Khám phá ngay</a></button>
+            </div>
+            <div class="body_page-popular-product-card">
+                <a href=""><img src="~/Asset/img/banner/banner-2.jpg" alt=""></a>
+                <button><a href="/Shop/Product">Khám phá ngay</a></button>
+            </div>
+            <div class="body_page-popular-product-card">
+                <a href=""><img src="~/Asset/img/banner/banner-3.jpg" alt=""></a>
+                <button><a href="/Shop/Product">Khám phá ngay</a></button>
+            </div>
+        </div>
+
+        <div class="body_page-trending-product">
+
+            <div class="body_page-trending-product-title">
+                <p>Sản phẩm</p>
+            </div>
+            <div class="body_page-trending-product-des">
+                <p>Những sản phẩm mới nhất hiện tại</p>
+            </div>
+
+            <div class="body_page-trending-product-list">
+                @*@foreach (var item in Model.Take(15))
+                {
+                    string price = item.Price.ToString();
+                    string priceForm = price.Substring(0, price.Length - 6) + "." + price.Substring(price.Length - 6, 3) + "." + price.Substring(price.Length - 3) + " đ";
+
+                    
+                 
+
+                }*@
+            </div>
+
+            <div class="body_page-trending-product-seeMoreBtn">
+                <button><a href="/Shop/Product">Xem thêm</a></button>
+            </div>
+
+        </div>
+
+        <div class="body_page-sub-product">
+            <div class="body_page-trending-product-title">
+                <p>Vật phẩm phong thủy</p>
+            </div>
+            <div class="body_page-trending-product-des">
+                <p>Những sản phẩm mới nhất hiện tại</p>
+            </div>
+
+            <div class="body_page-trending-product-list">
+
+                <div class="body_page-trending-product-list-card">
+                    <div class="card-image">
+                        <img src="~/Asset/img/sub_products/s1.jpg" alt="">
+                    </div>
+                    <div class="card-title-price">
+                        <p>Nhẫn Bạc Hồ Ly Thạch Anh Tóc Vàng</p>
+                        <span>2,400,000 đ</span>
+                    </div>
+                    <div class="card-btn">
+                        <button><a href="#">Chi tiết</a></button>
+                        <button>Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+                <div class="body_page-trending-product-list-card">
+                    <div class="card-image">
+                        <img src="~/Asset/img/sub_products/s2.jpg" alt="">
+                    </div>
+                    <div class="card-title-price">
+                        <p>Móc khóa 12 con giáp cẩm thạch – Tuổi Dần</p>
+                        <span>540,000 đ</span>
+                    </div>
+                    <div class="card-btn">
+                        <button><a href="#">Chi tiết</a></button>
+                        <button>Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+                <div class="body_page-trending-product-list-card">
+                    <div class="card-image">
+                        <img src="~/Asset/img/sub_products/s3.jpg" alt="">
+                    </div>
+                    <div class="card-title-price">
+                        <p>Móc khóa 12 con giáp cẩm thạch – Tuổi Dậu</p>
+                        <span>540,000 đ</span>
+                    </div>
+                    <div class="card-btn">
+                        <button><a href="#">Chi tiết</a></button>
+                        <button>Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+                <div class="body_page-trending-product-list-card">
+                    <div class="card-image">
+                        <img src="~/Asset/img/sub_products/s4.jpg" alt="">
+                    </div>
+                    <div class="card-title-price">
+                        <p>Móc khóa 12 con giáp cẩm thạch – Tuổi Hợi</p>
+                        <span>450,000 đ</span>
+                    </div>
+                    <div class="card-btn">
+                        <button><a href="#">Chi tiết</a></button>
+                        <button>Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+                <div class="body_page-trending-product-list-card">
+                    <div class="card-image">
+                        <img src="~/Asset/img/sub_products/s5.jpg" alt="">
+                    </div>
+                    <div class="card-title-price">
+                        <p>Móc khóa 12 con giáp cẩm thạch – Tuổi Mùi</p>
+                        <span>540,000 đ</span>
+                    </div>
+                    <div class="card-btn">
+                        <button><a href="#">Chi tiết</a></button>
+                        <button>Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="body_page-trending-product-seeMoreBtn">
+                <button><a href="/Shop/Product">Xem thêm</a></button>
+            </div>
+
+        </div>
+
+        <div class="body_page-subscribe">
+
+            <div class="body_page-subscribe-title">
+                <h1>Nhận thông tin mã giảm giá</h1>
+            </div>
+
+            <div class="body_page-subscribe-des">
+                <p>
+                    Đăng ký danh sách gửi thư GemStore để nhận thông tin cập nhật về hàng mới, ưu đãi đặc biệt và
+                    thông tin giảm giá khác.
+                </p>
+            </div>
+
+            <div class="body_page-subscribe-input">
+                <input type="text" placeholder="Theo dõi tin tức của chúng tôi">
+            </div>
+
+            <div class="body_page-subscribe-btn">
+                <button>Đăng ký</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>

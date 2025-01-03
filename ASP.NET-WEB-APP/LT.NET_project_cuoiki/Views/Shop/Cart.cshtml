@@ -1,0 +1,204 @@
+﻿@model Dictionary<string, LT.NET_project_cuoiki.Models.CartItem>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+
+
+}
+
+<link rel="stylesheet" href="~/Asset/css/cart.css">
+
+<!--banner-->
+<div class="banner">
+    <h1>Giỏ hàng</h1>
+</div>
+
+<!-- body page -->
+<div class="body_page">
+
+    <div class="body_page-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Trang chủ
+                </a>
+            </li>
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+            <li><a href="">Giỏ hàng</a></li>
+        </ul>
+    </div>
+
+    <div class="table_main">
+
+        <table class="table table-responsive">
+
+            <thead>
+                <tr>
+                    <th class="product-thumbnail">Hình ảnh</th>
+                    <th class="product-name">Tên sản phẩm</th>
+                    <th class="product-price">Giá</th>
+                    <th class="product-quantity">Số lượng</th>
+                    <th class="product-total">Tổng</th>
+                    <th class="product-remove">Xóa sản phẩm</th>
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </tr>
+            </thead>
+
+            <!-- content -->
+            <tbody>
+
+                <!-- product -->
+                @if (Model.Count > 0)
+                {
+                    foreach (KeyValuePair<string, LT.NET_project_cuoiki.Models.CartItem> entry in Model)
+                    {
+                        string total;
+                       
+                        {
+                            
+                            total = (entry.Value.Product.Price * entry.Value.Quantity).ToString();
+                        }
+
+                        string totalForm = total.Substring(0, total.Length - 6) + "." + total.Substring(total.Length - 6, 3) + "." + total.Substring(total.Length - 3) + " đ";
+                        <tr>
+                            <th class="product-thumbnail">
+                                <a href="#">
+                                    <img src="~/Asset/img/main_products/bracelets/bracelet_ruby-2.jpeg" alt="">
+                                </a>
+                            </th>
+                            <th class="product-name">
+                                <a href="#">
+                                    @entry.Value.Product.Title
+
+                                </a>
+                            </th>
+                            <th class="product-price">
+                                
+                            </th>
+                            <th class="product-quantity">
+                                <div class="cart-plus-minus">
+                                    <button class="dec qtybutton" id="dec" onclick="quantityButton(this.id)"><a href="/Shop/DecrementQuantity?productId=@entry.Key">-</a></button>
+                                    <input type="text" value="@entry.Value.Quantity" id="quantity">
+                                    <button class="inc qtybutton" id="inc" onclick="quantityButton(this.id)"><a href="/Shop/IncrementQuantity?productId=@entry.Key">+</a></button>
+                                </div>
+                            </th>
+                            <th class="product-total">
+                                <span> @totalForm</span>
+                            </th>
+                            <th class="product-remove">
+                                <button>
+                                    <a href="/Shop/DeleteItem?productId=@entry.Key">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                </button>
+                            </th>
+                        </tr>
+                    }
+                }
+            </tbody>
+
+        </table>
+
+        <div class="table table-non-responsive">
+
+            <ul>
+                @if (Model.Count > 0)
+                {
+                    foreach (KeyValuePair<string, LT.NET_project_cuoiki.Models.CartItem> entry in Model)
+                    {
+                        string total;
+                        
+                        {
+                            
+                            total = (entry.Value.Product.Price * entry.Value.Quantity).ToString();
+                        }
+                        
+                        
+                        
+                        string totalForm = total.Substring(0, total.Length - 6) + "." + total.Substring(total.Length - 6, 3) + "." + total.Substring(total.Length - 3) + " đ";
+
+                        <li class="list_card">
+                            <div class="card_img">
+                                <img src="~/Asset/@entry.Value.Product.Thumbnail" alt="">
+                            </div>
+                            <div class="card_infor">
+                                <a href="#" class="title">@entry.Value.Product.Title</a><br>
+                                <span class="price">@totalForm</span>
+                                <div class="product-quantity">
+                                    <button id="dec" onclick="quantityButton(this.id)"><a href="/Shop/DecrementQuantity?productId=@entry.Key">-</a></button>
+                                    <input type="text" value="@entry.Value.Quantity" id="quantity">
+                                    <button id="inc" onclick="quantityButton(this.id)"><a href="/Shop/IncrementQuantity?productId=@entry.Key">+</a></button>
+                                </div>
+                            </div>
+                            <div class="deleteProduct">
+                                <button class="deleteProductBtn">
+                                    <a href="/Shop/DeleteItem?productId=@entry.Key">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </li>
+                    }
+                }
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="coupon_clear">
+        <div class="couponCode">
+            <input type="text" placeholder="Mã giảm giá">
+            <button>OK</button>
+        </div>
+        <div class="clearCart">
+            <button><a href="/Shop/DeleteAllItem" class="deleteAll">Xóa tất cả</a></button>
+        </div>
+    </div>
+    @{
+        String totalString = "";
+        int totalInt = 0;
+    }
+    @if (Model.Count > 0)
+    {
+        foreach (KeyValuePair<string, LT.NET_project_cuoiki.Models.CartItem> entry in Model)
+        {
+            
+            {
+                totalInt += (entry.Value.Product.Price * entry.Value.Quantity);
+            }
+            String totalS = totalInt.ToString();
+            totalString = totalS.Substring(0, totalS.Length - 6) + "." + totalS.Substring(totalS.Length - 6, 3) + "." + totalS.Substring(totalS.Length - 3) + " đ";
+        }
+    }
+    <div class="body_page-footer">
+        <div class="empty_page"></div>
+        <div class="CartTotals">
+            <h2>Tổng tiền</h2>
+            <ul>
+
+                <li>
+                    <span class="title">Tạm tính</span>
+                    <span class="price">@(totalString == ""? "0 đ":totalString)</span>
+                </li>
+                <li>
+                    <span class="title">Giảm giá</span>
+                    <span class="price">0 đ</span>
+                </li>
+                <li>
+                    <span class="title">Tổng</span>
+                    <span class="price">@(totalString == ""? "0 đ":totalString)</span>
+                </li>
+            </ul>
+            <button class="totals_btns">
+                @*<a href="checkout.html">Thanh toán</a>*@
+                @Html.ActionLink("Thanh toán", "Checkout", "Shop")
+            </button>
+        </div>
+    </div>
+
+
+</div>
+<script src="~/Asset/js/cart.js"></script>

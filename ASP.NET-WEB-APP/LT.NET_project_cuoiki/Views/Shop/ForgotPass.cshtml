@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "ForgotPass";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<link rel="stylesheet" href="~/Asset/css/lostpassword.css">
+
+<!--banner-->
+<div class="banner">
+    <h1>Tìm lại tài khoản</h1>
+</div>
+
+<!-- body page -->
+<div class="body_page">
+
+    <div class="body_page-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Trang chủ
+                </a>
+            </li>
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+            <li><a href="">Lấy lại mật khẩu</a></li>
+        </ul>
+    </div>
+    <!--        Lost Password Form-->
+    <div class="body_page-main">
+        <div class="lost-pass-container">
+            <div class="text-header">
+                <h3>Tìm Tài Khoản Của Bạn</h3>
+            </div>
+            <div class="message">
+                <p>Vui lòng nhập tên tài khoản để gửi mật khẩu mới về email của bạn</p>
+            </div>
+            @using (Html.BeginForm("ForgotPass", "Shop"))
+            {
+            <form action="" method="post">
+                @if (ViewBag.Notify == "Tài khoản không tồn tại")
+                {
+                    <h4 style="text-align: center; font-size: 16px; color: red; padding: 10px 0px 20px">@ViewBag.Notify</h4>
+                }
+                else if (ViewBag.Notify == "Mật khẩu mới đã được gửi về email của bạn")
+                {
+                    <h4 style="text-align: center; font-size: 16px; color: green; padding:10px 0px 20px">@ViewBag.Notify</h4>
+                }
+                else
+                {
+
+                }
+                <input id="email" type="text" placeholder="Tài khoản đăng nhập của bạn...." name="username" style="padding: 0 20px; width: 100%; height: 60px; border: 2px solid #eaedff; color: #6f7172; margin-bottom: 20px; font-size: inherit; line-height: inherit;">
+
+
+                <button class="find-button ">TÌM KIẾM</button>
+
+                <div style="text-align:center">
+                    @Html.ActionLink("Trở về trang đăng nhập", "Login", "Shop")
+                </div>
+
+            </form>
+            }
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="~/Asset/js/login.js"></script>
+
